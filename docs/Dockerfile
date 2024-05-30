@@ -1,4 +1,4 @@
-FROM nvidia/cuda:10.1-base
+FROM nvidia/cuda:9.2-base
 
 #Nvidia Public GPG Key
 RUN apt-key adv --fetch-keys https://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/3bf863cc.pub
